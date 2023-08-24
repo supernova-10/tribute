@@ -1,73 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
     <title>Al-Khawarizmi</title>
-</head>
-<body>
-  <header class="hi">
-   <p>Al-Khawarizmi</p>
-  </header>
-  <div class="intro">
-    <article>Muḥammad ibn Mūsā al-Khwārizmī, a Persian polymath from Khwarazm, made significant contributions to mathematics, astronomy, and geography. He introduced systematic solutions for algebraic equations and is considered a pioneer of algebra, with his methods laying the foundation for the field. His translations and writings on arithmetic, alongside his contributions to trigonometry and astronomy, had a profound influence on mathematics and science during his time.</article>
-  </div>
-  <div class="bgtime">
-    <div class="timeline">
-      <div class="dot" style="left: 10%;"></div>
-      <div class="dot" style="left: 30%;"></div>
-      <div class="dot" style="left: 50%;"></div>
-      <div class="dot" style="left: 70%;"></div>
-      <div class="dot" style="left: 90%;"></div>
-      <div class="line"></div>
+  </head>
+  <body>
+    <header class="hi">
+      <p>Al-Khawarizmi</p>
+    </header>
+    <div class="intro">
+      <article>
+        Muḥammad ibn Mūsā al-Khwārizmī, a Persian polymath from Khwarazm, made
+        significant contributions to mathematics, astronomy, and geography. He
+        introduced systematic solutions for algebraic equations and is
+        considered a pioneer of algebra, with his methods laying the foundation
+        for the field. His translations and writings on arithmetic, alongside
+        his contributions to trigonometry and astronomy, had a profound
+        influence on mathematics and science during his time.
+      </article>
     </div>
-  
-    <div class="date d1" style="top: 30px; left: 10%;">780</div>
-    <div class="description" style="top: -30px; left: 10%;">
-      Al-Khwarizmi's Birth
+    <!-- <div class="bgtime"> -->
+    <!--   <div class="timeline"> -->
+    <!--     <div class="dot" style="left: 10%"></div> -->
+    <!--     <div class="dot" style="left: 30%"></div> -->
+    <!--     <div class="dot" style="left: 50%"></div> -->
+    <!--     <div class="dot" style="left: 70%"></div> -->
+    <!--     <div class="dot" style="left: 90%"></div> -->
+    <!--     <div class="line"></div> -->
+    <!--   </div> -->
+    <!---->
+    <!--   <div class="date d1" style="top: 30px; left: 10%">780</div> -->
+    <!--   <div class="description" style="top: -30px; left: 10%"> -->
+    <!--     Al-Khwarizmi's Birth -->
+    <!--   </div> -->
+    <!--   <div class="date d2" style="top: -30px; left: 30%">813</div> -->
+    <!--   <div class="description" style="top: 30px; left: 30%"> -->
+    <!--     Systematic Algebra Solutions -->
+    <!--   </div> -->
+    <!--   <div class="date d1" style="top: 30px; left: 50%">820</div> -->
+    <!--   <div class="description" style="top: -30px; left: 50%"> -->
+    <!--     Astronomer and Head of the House of Wisdom -->
+    <!--   </div> -->
+    <!--   <div class="date d2" style="top: -30px; left: 70%">833</div> -->
+    <!--   <div class="description" style="top: 30px; left: 70%"> -->
+    <!--     Continued Contributions in Mathematics -->
+    <!--   </div> -->
+    <!--   <div class="date d1" style="top: 30px; left: 90%">850</div> -->
+    <!--   <div class="description" style="top: -30px; left: 90%"> -->
+    <!--     Al-Khwarizmi's Passing -->
+    <!--   </div> -->
+    <!-- </div> -->
+    <div id="timeline">
+      <div class="timeline-bar"></div>
+      <div id="events">
+        <div class="container">
+          <div class="content">
+            <h2>780</h2>
+            <p>Al-Khwarizmi's Birth</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+            <h2>813</h2>
+            <p>Systematic Algebra Solutions</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+            <h2>820</h2>
+            <p>Astronomer and Head of the House of Wisdom</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+            <h2>833</h2>
+            <p>Continued Contributions in Mathematics</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+            <h2>850</h2>
+            <p>Al-Khwarizmi's Passing</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="date d2" style="top: -30px; left: 30%;">813</div>
-    <div class="description" style="top: 30px; left: 30%;">
-      Systematic Algebra Solutions
-    </div>
-    <div class="date d1" style="top: 30px; left: 50%;">820</div>
-    <div class="description" style="top: -30px; left: 50%;">
-      Astronomer and Head of the House of Wisdom
-    </div>
-    <div class="date d2" style="top: -30px; left: 70%;">833</div>
-    <div class="description" style="top: 30px; left: 70%;">
-      Continued Contributions in Mathematics
-    </div>
-    <div class="date d1" style="top: 30px; left: 90%;">850</div>
-    <div class="description" style="top: -30px; left: 90%;">
-      Al-Khwarizmi's Passing
-    </div>
-    
-  </div>
     <div class="topbtn">
-        <button class="button algebra">
-            <span>Algebra</span>
-          </button>
-          <button class="button arithmetic">
-            <span>Arithmetic</span>
-          </button>
-          <button class="button astronomy">
-            <span>Astronomy</span>
-          </button>
-          <button class="button trigonometry">
-            <span>Trigonometry</span>
-          </button>
-          <button class="button geography">
-            <span>Geography</span>
-          </button>
-          <button class="button jewish-calendar">
-            <span>Jewish Calendar</span>
-          </button>
-          <button class="button other-works">
-            <span>Other Works</span>
-          </button>
+      <button class="button algebra">
+        <span>Algebra</span>
+      </button>
+      <button class="button arithmetic">
+        <span>Arithmetic</span>
+      </button>
+      <button class="button astronomy">
+        <span>Astronomy</span>
+      </button>
+      <button class="button trigonometry">
+        <span>Trigonometry</span>
+      </button>
+      <button class="button geography">
+        <span>Geography</span>
+      </button>
+      <button class="button jewish-calendar">
+        <span>Jewish Calendar</span>
+      </button>
+      <button class="button other-works">
+        <span>Other Works</span>
+      </button>
     </div>
-    
-</body>
+  </body>
 </html>

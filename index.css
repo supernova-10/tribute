@@ -33,20 +33,25 @@ header p {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   max-width: 800px;
   margin: 0 auto;
-
 }
 
-
-
-.bgtime{
+.bgtime {
   background-color: #f6e8ce;
 }
-.timeline {
+#timeline {
   position: relative;
-  margin: 50px 0;
+  margin: 100px 0;
   width: 100%;
   height: 10px;
   background-color: #333;
+  padding: 0 10px;
+}
+
+.timeline-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #333;
+  margin: 15px 0;
 }
 
 .dot {
@@ -59,6 +64,64 @@ header p {
   transform: translateX(-50%);
   transition: background-color 0.3s;
   cursor: pointer;
+}
+
+.container:nth-child(even) {
+  padding: 10px 40px;
+  position: relative;
+  background-color: lightgray;
+  width: fit-content;
+  display: flex;
+  transform: translateY(-144%);
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.container:nth-child(even)::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 43%;
+  background-color: white;
+  border: 4px solid #ff9f55;
+  top: 117%;
+  border-radius: 50%;
+  z-index: 1;
+}
+.container:nth-child(odd) {
+  padding: 10px 40px;
+  position: relative;
+  background-color: lightgray;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.container:nth-child(odd)::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 43%;
+  background-color: white;
+  border: 4px solid #ff9f55;
+  top: -27%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+#events {
+  display: flex;
+  gap: 2rem;
+  flex-flow: row nowrap;
+}
+
+.content h2,
+.content p {
+  margin: 0;
+  text-align: center;
 }
 
 .dot:hover {
@@ -82,7 +145,7 @@ header p {
 }
 
 .topbtn {
-  background-color: #f6e8ce ;
+  background-color: #f6e8ce;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
@@ -155,56 +218,54 @@ header p {
   background-image: url("pics/OtherWorks.jpg");
 }
 
-
-
-.hc{
+.hc {
   width: 100%;
 }
-header img{
+header img {
   width: 100%;
   height: 400px;
 }
 
-body{
+body {
   margin: 0;
 }
 
-section h1, h2, h3{
+section h1,
+h2,
+h3 {
   margin: 0px;
   padding: 10px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-section p{
+section p {
   margin: 0px;
   padding: 30px;
   text-align: left;
-
 }
-section div{
+section div {
   margin-left: 20px;
   margin-right: 20px;
   background-color: #4b4b4b;
   margin-bottom: 20px;
 }
-section img{
+section img {
   margin: 20px;
   margin-left: 20px;
   margin-right: 20px;
 }
-section ul{
+section ul {
   margin-bottom: 0px;
   padding-bottom: 5px;
 }
 
-section header img{
+section header img {
   width: 45px;
   height: 50px;
-
 }
 
-section header h1{
+section header h1 {
   margin-left: 70px;
   margin-top: -75px;
 }
@@ -236,4 +297,3 @@ section header h1{
 .other-works {
   background-color: #c19667;
 }
-
