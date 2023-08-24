@@ -27,17 +27,17 @@ header p {
 .intro {
   background-image: url("pics/grainy.jpg");
   font-family: "Open Sans", sans-serif;
-}
-
-article {
-  background-image: url("pics/grainy.jpg");
   background-position: center;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   max-width: 800px;
   margin: 0 auto;
+
 }
+
+
+
 .bgtime{
   background-color: #f6e8ce;
 }
@@ -203,39 +203,37 @@ section header img{
   height: 50px;
 
 }
-section header{
-  background-color:#f7f7f7;
-}
+
 section header h1{
   margin-left: 70px;
-  margin-top: -65px;
+  margin-top: -75px;
 }
 
 .algebra {
-  background-color: #feb7e4;
+  background-color: #6c6a6a;
 }
 
 .arithmetics {
-  background-color: #ff4c4b;
+  background-color: #f6e8ce;
 }
 
 .astronomy {
-  background-color: #fe9700;
+  background-color: #f7f4e5;
 }
 
 .trigonometry {
-  background-color: #a570ff;
+  background-color: #d0b4da;
 }
 
 .geography {
-  background-color: #a56644;
+  background-color: #b98c80;
 }
 
 .jewish-calendar {
-  background-color: #ffb200;
+  background-color: #e7cc8e;
 }
 
 .other-works {
-  background-color: #c86902;
+  background-color: #c19667;
 }
 
