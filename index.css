@@ -223,77 +223,33 @@ header p {
 }
 header img {
   width: 100%;
-  height: 400px;
+  height: 100px;
 }
 
-body {
-  margin: 0;
-}
-
-section h1,
-h2,
-h3 {
-  margin: 0px;
-  padding: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-section p {
-  margin: 0px;
-  padding: 30px;
-  text-align: left;
-}
-section div {
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: #4b4b4b;
-  margin-bottom: 20px;
-}
-section img {
-  margin: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-section ul {
-  margin-bottom: 0px;
-  padding-bottom: 5px;
-}
-
-section header img {
-  width: 45px;
-  height: 50px;
-}
-
-section header h1 {
-  margin-left: 70px;
-  margin-top: -75px;
-}
-
-.algebra {
+#algebra {
   background-color: #6c6a6a;
 }
 
-.arithmetics {
+#arithmetics {
   background-color: #f6e8ce;
 }
 
-.astronomy {
+#astronomy {
   background-color: #f7f4e5;
 }
 
-.trigonometry {
+#trigonometry {
   background-color: #d0b4da;
 }
 
-.geography {
+#geography {
   background-color: #b98c80;
 }
 
-.jewish-calendar {
+#jewish-calendar {
   background-color: #e7cc8e;
 }
 
-.other-works {
+#other-works {
   background-color: #c19667;
 }
